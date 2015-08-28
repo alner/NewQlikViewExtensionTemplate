@@ -1,5 +1,7 @@
 # QlikView extension template (ES2015 + BABEL + WebPack + BrowserSync)
 
+Supports hot rebuilds and browser refresh in response to file modifications.
+
 ## Installation
 
 Download and unzip template.
