@@ -10,8 +10,8 @@ const scripts = [
 //Qva.LoadCSS(QVA_REMOTE + '/styles.css');
 
 Qva.LoadScriptArray(scripts, () => {
-	// if you need to load component.js after the scripts have been loaded, 
+	// if you need to load component.js after the scripts have been loaded,
 	// you can use require (import is hoisted !!!)
-	// let paint = require('./component'); 
+	// let paint = require('./component');
 	Qva.AddExtension(EXTENSION_NAME, paint);
 });

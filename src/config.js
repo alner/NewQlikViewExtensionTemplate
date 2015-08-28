@@ -1,2 +1,2 @@
 export const EXTENSION_NAME = "NewQlikViewExtension"; // should match the folder name
-export const QVA_REMOTE = Qva.Remote + (Qva.Remote.indexOf('?') >= 0 ? '&' : '?') + 'public=only' + '&name=' + 'Extensions/' + EXTENSION_NAME;
+export const QVA_REMOTE = `${Qva.Remote}${(Qva.Remote.indexOf('?') >= 0 ? '&' : '?')}public=only&name=Extensions/${EXTENSION_NAME}`;
