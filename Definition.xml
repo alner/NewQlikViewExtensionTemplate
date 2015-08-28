@@ -1,0 +1,11 @@
+﻿<ExtensionObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Definition.xsd" Label="New QlikView extension" Description="QlikView extension template" PageHeight="10000">
+	
+  <Dimension Label="Dim 1" Initial=""/>
+  
+  <Measurement Label="Expr1" Initial=""/>
+
+  <Text Label="Text1" Type="text"/>
+
+  <Initiate Name="Chart.Title" value="New Extension"/>
+  <Initiate Name="Chart.Expression.0.0.Definition" value=""/>
+</ExtensionObject>

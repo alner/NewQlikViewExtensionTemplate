@@ -1,0 +1,30 @@
+{
+  "name": "NewQlikViewExtension",
+  "version": "0.0.1",
+  "description": "QlikView Extension template (ES2015 + WebPack + Babel)",
+  "keywords": "qlikview extension",
+  "main": "script.js",
+  "homepage": "",
+  "bugs": "",
+  "scripts": {
+    "build": "webpack -p",
+    "dev": "webpack -d --progress --colors --watch"
+  },
+  "author": "Alexander Nerush <ale.nerush@gmail.com>",
+  "license": "MIT",
+  "repository": "",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "babel-core": "^5.8.22",
+    "babel-loader": "^5.3.2",
+    "browser-sync": "^2.8.2",
+    "browser-sync-webpack-plugin": "^0.2.1",
+    "css-loader": "^0.15.6",
+    "node-libs-browser": "^0.5.2",
+    "style-loader": "^0.12.3",
+    "webpack": "^1.11.0",
+    "webpack-dev-server": "^1.10.1"
+  }
+}
