@@ -36,7 +36,7 @@ npm run build # for production
 
 ## Maintainers
 
-[alner]
+[alner](https://github.com/alner)
 
 ## License
 
